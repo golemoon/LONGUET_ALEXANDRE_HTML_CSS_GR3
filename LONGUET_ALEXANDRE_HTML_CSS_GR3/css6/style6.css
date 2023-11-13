@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    min-height: 5vh;
+    border-bottom: 2px solid black;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: 3px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.coté-gauche {
+    float: left;
+}
+
+.coté-droit {
+    float: right;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 10vh 0;
+}
+
+.composant{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin: 7vh;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.titre{
+    color: #69727b;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.série1{
+    display: flex;
+    align-items: center;
+
+}
+
+.série1 img{
+    max-width: 50%;
+    height: auto;
+}
+
+.vente {
+    font-size: 20px;
+}
+
+.espace {
+    line-height: 150%;
+    color: black;
+    font-weight: bold;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: 3px;
+}
+
+.acheter {
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #5b695c;
+    border-radius: 4px;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.vente{
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 887px) {
+    .série1 {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .acheter {
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+}

@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+}
+
+header{
+    background-color: black;
+    min-height: 5vh;
+    max-height: 10vh;
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    padding: 10vh 0;
+}
+
+.titre{
+    color: #69727b;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+.série1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    min-height: 40vh;
+
+}
+
+.ecriture{
+    display: flex;
+    justify-content: center;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: 3px;
+}
+
+.prix{
+    margin-bottom: 10vh;
+    display: flex;
+    justify-content: center;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: 3px;
+}
+
+.img1{
+    margin: 1vh;
+    width: 60vh;
+    background-color: #ececec;
+    min-height: 5vh;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.img1:hover{
+    transform: scale(0.90);
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: white;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+}
+
+.marque{
+    color: white;
+}
+
+.info{
+    color: white;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: black;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Roboto,Helvetica,Arial,sans-serif;
+    letter-spacing: 3px;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.coté-gauche {
+    float: left;
+}
+
+.coté-droit {
+    float: right;
+}
